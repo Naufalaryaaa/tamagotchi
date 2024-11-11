@@ -1,9 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int hungry;
-int happy;
-int energy;
+
   
 hungry=50;
 happy=50;
@@ -14,6 +12,10 @@ int select, food, play, sleep, clean;
 char ntama[20];
 
 int main(){
+
+int hungry;
+int happy;
+int energy;
 	printf("Pilih tamagotchi: \n1. Cat\n2. Dog\n3. Bird\n");
 	printf("\nSilahkan pilih: "); 
 	scanf("%d", &tama);
