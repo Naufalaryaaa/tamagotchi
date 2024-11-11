@@ -2,10 +2,10 @@
 #include <stdlib.h>
 
 
-  
-hungry=50;
-happy=50;
-energy=50;
+int hungry;
+int happy;
+int energy;
+
   
 int choice, menu,tama,eat;
 int select, food, play, sleep, clean;
@@ -13,9 +13,10 @@ char ntama[20];
 
 int main(){
 
-int hungry;
-int happy;
-int energy;
+hungry=50;
+happy=50;
+energy=50;
+	
 	printf("Pilih tamagotchi: \n1. Cat\n2. Dog\n3. Bird\n");
 	printf("\nSilahkan pilih: "); 
 	scanf("%d", &tama);
